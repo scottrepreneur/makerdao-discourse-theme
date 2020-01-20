@@ -98,6 +98,7 @@ aside {
     margin-bottom: $card-inner-spacer-y;
 
     blockquote {
+      background: $maker-blue-gradient;
       width: auto !important;
 
       &:last-child {
@@ -139,7 +140,7 @@ aside {
 
     .title {
       align-items: center;
-      background-color: color-chooser($card-child-bg-dark, $card-child-bg-light);
+      background-color: $blue-gradient-top;
       border-left: 0;
       color: color-chooser($white-secondary, $black-secondary);
       display: flex;
