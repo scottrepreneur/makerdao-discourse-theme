@@ -5,6 +5,7 @@ module.exports = function(grunt) {
   require('time-grunt')(grunt)
 
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-copy');
 
   // project configuration
   grunt.initConfig({
@@ -166,6 +167,20 @@ module.exports = function(grunt) {
       project: ['scss/**/*.scss']
     },
 
+    copy: {
+      files: {
+        cwd: './',                  // set working folder / root to copy
+        src: [
+          'common/*.html',
+          'desktop/*.html',
+          'mobile/*.html',
+          'about.json'
+        ],           // copy all files and subfolders
+        dest: 'theme/',    // destination folder
+        expand: true  
+      }
+    },
+
     // update package.json packages
     devUpdate: {
       default: {
@@ -184,7 +199,8 @@ module.exports = function(grunt) {
       'scsslint',
       'sass',
       'concat',
-      'postcss'
+      'postcss',
+      'copy'
     ]
   )
 }

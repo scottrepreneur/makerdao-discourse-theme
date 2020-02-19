@@ -436,7 +436,11 @@
   }
 
   .pinned {
-    background-image: $maker-green-gradient;
+    background: color-chooser($maker-blue, $maker-green-gradient);
+
+    .title {
+      color: color-chooser($light-4, $tbody-color-light);
+    }
   }
 
   .d-icon.pinned {

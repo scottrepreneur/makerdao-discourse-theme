@@ -162,7 +162,7 @@ aside {
 
 div {
   &.poll {
-    background: color-chooser(unquote('$tertiary'), $maker-orange-gradient);
+    background: color-chooser($maker-blue, $maker-orange-gradient);
     border: 0;
     margin: 0 ($card-padding-x * -1) $card-inner-spacer-y;
     width: calc(100% + #{$card-padding-x * 2});
@@ -236,6 +236,10 @@ div {
         color: unquote('$tertiary');
       }
 
+      .info-text {
+        color: color-chooser($light-4, $maker-blue);
+      }
+
       .toggle-status {
         border: 1px solid $maker-blue;
 
@@ -274,10 +278,12 @@ div {
 
       .info-label {
         @include typography-h6;
+        color: color-chooser($light-4, $maker-blue);
       }
 
       .info-number {
         @include typography-h3;
+        color: color-chooser($light-4, $maker-blue);
       }
     }
 
@@ -298,14 +304,14 @@ div {
 
     .results {
       .bar {
-        background-color: color-chooser($card-color-dark, $card-color-light);
+        background-color: color-chooser($light-4, $card-color-light);
         border-radius: 0 2px 2px 0;
         height: $progress-height;
         position: relative;
       }
 
       .bar-back {
-        background-color: color-chooser($card-color-dark, $card-color-light);
+        background-color: color-chooser($maker-blue, $card-color-light);
         border-radius: 2px;
         height: $progress-height;
         position: relative;
@@ -327,12 +333,12 @@ div {
       .chosen {
         .bar,
         .bar-back {
-          background-color: $maker-blue;
+          background-color: color-chooser($maker-blue, $maker-blue);
         }
       }
 
       .percentage {
-        color: color-chooser($card-color-dark, $card-color-light);
+        color: color-chooser($light-4, $card-color-light);
         font-size: inherit;
         margin-left: $card-inner-spacer-x;
       }
