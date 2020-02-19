@@ -699,7 +699,7 @@
 
       &.active {
         background-color: unquote('$quaternary');
-        color: color-dynamic(unquote('$quaternary'));
+        color: color-chooser($dark-4, color-dynamic(unquote('$quaternary')));
         font-weight: normal;
       }
     }

@@ -49,16 +49,16 @@ blockquote::after, blockquote::before, .d-editor-preview div.poll[data-poll-type
   font-family: 'Material Icons';
   -webkit-font-feature-settings: 'liga';
           font-feature-settings: 'liga';
-  font-size: 1.714286em;
+  font-size: 1.5em;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
-  line-height: 0.583333em;
+  line-height: 0.666667em;
   text-rendering: optimizeLegibility;
   text-transform: none;
-  vertical-align: -0.302198em;
+  vertical-align: -0.345369em;
   white-space: nowrap;
   word-wrap: normal;
 }
@@ -70,7 +70,7 @@ blockquote::after, blockquote::before, .d-editor-preview div.poll[data-poll-type
 }
 
 body {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.428572;
 }
 
@@ -211,7 +211,7 @@ p {
 }
 
 small {
-  font-size: 85.714286%;
+  font-size: 75%;
 }
 
 input[type='search'] {
@@ -249,9 +249,9 @@ tbody {
 }
 .nav-pills > li > a {
   border-radius: 2px;
-  font-size: 14px;
+  font-size: 16px;
   min-height: 36px;
-  padding: 11px 16px;
+  padding: 10px 16px;
   transition-duration: 0.3s;
   transition-property: background-color, color, opacity;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -263,7 +263,7 @@ tbody {
   opacity: 1;
 }
 .nav-pills > li > a .d-icon {
-  font-size: 13px !important;
+  font-size: 15px !important;
   margin-right: 4px;
   opacity: 1;
 }
@@ -282,9 +282,9 @@ tbody {
 }
 .nav-stacked a {
   border-radius: 2px;
-  font-size: 14px;
+  font-size: 16px;
   opacity: 0.7;
-  padding: 11px 16px;
+  padding: 10px 16px;
   transition-duration: 0.3s;
   transition-property: background-color, color, opacity;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -302,7 +302,7 @@ tbody {
   display: none;
 }
 .nav-stacked a .d-icon {
-  font-size: 13px !important;
+  font-size: 15px !important;
   margin-right: 4px;
 }
 .nav-stacked li {
@@ -322,28 +322,28 @@ tbody {
 }
 
 blockquote {
-  background: linear-gradient(#d9e6f2, #c9dbed);
+  background: color-chooser(#08529b, linear-gradient(#d9e6f2, #c9dbed));
 }
 
 .badge-group,
 .badge-notification {
   -ms-flex-align: center;
       align-items: center;
-  border-radius: 10.000004px;
+  border-radius: 11.428576px;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  font-size: 85.714286%;
+  font-size: 75%;
   -ms-flex-pack: center;
       justify-content: center;
   line-height: 1;
-  min-height: 20.000008px;
-  min-width: 20.000008px;
+  min-height: 22.857152px;
+  min-width: 22.857152px;
   padding: 0;
 }
 .badge-group.flagged-posts, .badge-group.reviewables,
 .badge-notification.flagged-posts,
 .badge-notification.reviewables {
-  min-width: 20.000008px;
+  min-width: 22.857152px;
 }
 
 .badge-group {
@@ -351,7 +351,7 @@ blockquote {
 }
 
 .badge-wrapper {
-  font-size: 85.714286%;
+  font-size: 75%;
   font-weight: normal;
 }
 .badge-wrapper.bar {
@@ -359,14 +359,14 @@ blockquote {
       align-items: center;
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
   border-radius: 16px;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.428572;
   margin-right: 4px;
   padding-right: 16px;
   padding-left: 16px;
 }
 .badge-wrapper.bar span.badge-category {
-  padding: 6.714282px 0;
+  padding: 5.28571px 0;
 }
 .badge-wrapper.bar .badge-category {
   -ms-flex-align: center;
@@ -382,7 +382,7 @@ blockquote {
 }
 .badge-wrapper.box {
   border-radius: 16px;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.428572;
   margin-right: 4px;
   padding: 0;
@@ -392,7 +392,7 @@ blockquote {
       align-items: center;
   border-radius: 16px;
   min-height: 32px;
-  padding: 6.714282px 16px;
+  padding: 5.28571px 16px;
 }
 .badge-wrapper.box .badge-category-bg {
   border-radius: 16px;
@@ -412,7 +412,7 @@ blockquote {
   -ms-flex-align: center;
       align-items: center;
   border-radius: 16px;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.428572;
   margin-right: 4px;
   padding-right: 16px;
@@ -468,14 +468,14 @@ blockquote {
   border: 0;
   border-radius: 2px;
   box-shadow: none;
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1;
   margin: 0;
   max-width: 100%;
-  padding: 11px 16px;
+  padding: 10px 16px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -492,16 +492,16 @@ blockquote {
 }
 .discourse-no-touch .badges .buttons .delete-link:hover, .discourse-no-touch .badges .buttons .delete-link.btn-hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .badges .buttons .delete-link:focus {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   outline: 0;
 }
 .badges .buttons .delete-link:active, .discourse-no-touch .badges .buttons .delete-link:active, .badges .buttons .delete-link.btn-active, .discourse-no-touch .badges .buttons .delete-link.btn-active {
   background-color: color-chooser(rgba(204, 204, 204, 0.25), rgba(153, 153, 153, 0.4));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .badges .buttons .delete-link[disabled], .badges .buttons .delete-link.disabled {
   background-color: transparent !important;
@@ -511,7 +511,7 @@ blockquote {
   color: $danger;
 }
 .badges .buttons .saving {
-  margin: 11px 4px 0;
+  margin: 10px 4px 0;
   padding: 0;
   width: auto;
 }
@@ -528,7 +528,7 @@ blockquote {
   margin-bottom: 0;
 }
 .badges .current-badge p.help {
-  font-size: 85.714286%;
+  font-size: 75%;
 }
 .badges .current-badge .badge-grouping-control .badge-selector {
   margin-right: 4px;
@@ -536,7 +536,7 @@ blockquote {
 
 .discourse-tag.box {
   border-radius: 2px;
-  font-size: 85.714286%;
+  font-size: 75%;
   padding: 0.2em 0.4em;
 }
 .discourse-tag.bullet::before {
@@ -553,14 +553,14 @@ blockquote {
   border: 0;
   border-radius: 2px;
   box-shadow: none;
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1;
   margin: 0;
   max-width: 100%;
-  padding: 11px 16px;
+  padding: 10px 16px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -576,23 +576,23 @@ blockquote {
 }
 .discourse-no-touch .btn-flat:hover, .discourse-no-touch .btn-flat.btn-hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .btn-flat:focus {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   outline: 0;
 }
 .btn-flat:active, .discourse-no-touch .btn-flat:active, .btn-flat.btn-active, .discourse-no-touch .btn-flat.btn-active {
   background-color: color-chooser(rgba(204, 204, 204, 0.25), rgba(153, 153, 153, 0.4));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .btn-flat[disabled], .btn-flat.disabled {
   background-color: transparent !important;
   color: color-chooser(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.26)) !important;
 }
 .btn-flat .d-icon {
-  font-size: 13px !important;
+  font-size: 15px !important;
 }
 
 .btn {
@@ -601,14 +601,14 @@ blockquote {
   border: 0;
   border-radius: 2px;
   box-shadow: none;
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1;
   margin: 0;
   max-width: 100%;
-  padding: 11px 16px;
+  padding: 10px 16px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -622,21 +622,21 @@ blockquote {
   vertical-align: middle;
   white-space: nowrap;
   background-color: color-chooser($tertiary, #ffffff);
-  border: 1px solid $tertiary;
-  color: $tertiary;
+  border: 1px solid color-chooser($quaternary, $tertiary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .discourse-no-touch .btn:hover, .discourse-no-touch .btn.btn-hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .btn:focus {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   outline: 0;
 }
 .btn:active, .discourse-no-touch .btn:active, .btn.btn-active, .discourse-no-touch .btn.btn-active {
   background-color: color-chooser(rgba(204, 204, 204, 0.25), rgba(153, 153, 153, 0.4));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .btn[disabled], .btn.disabled {
   background-color: transparent !important;
@@ -668,7 +668,7 @@ blockquote {
 }
 .btn .d-icon {
   color: inherit;
-  font-size: 13px !important;
+  font-size: 15px !important;
 }
 
 .btn-danger {
@@ -706,21 +706,21 @@ blockquote {
 }
 
 .btn-large {
-  font-size: 15px;
-  padding: 12.5px 16px;
+  font-size: 17px;
+  padding: 11.5px 16px;
 }
 .btn-large .d-icon {
-  font-size: 14px !important;
+  font-size: 16px !important;
 }
 
 .btn-small,
 .btn-xsmall {
-  font-size: 13px;
-  padding: 9.5px 16px;
+  font-size: 15px;
+  padding: 8.5px 16px;
 }
 .btn-small .d-icon,
 .btn-xsmall .d-icon {
-  font-size: 12px !important;
+  font-size: 14px !important;
 }
 
 .btn-social {
@@ -732,7 +732,7 @@ blockquote {
   border-radius: 150px;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 2px;
+  margin-right: 4px;
   min-width: 100px;
   transition: .2s ease-in-out;
 }
@@ -785,7 +785,7 @@ code {
   background-color: color-chooser(#212121, #f5f5f5);
   border-radius: 2px;
   color: color-chooser(#bd4147, #bd4147);
-  font-size: 85.714286%;
+  font-size: 75%;
   padding: 0.2em 0.4em;
 }
 
@@ -793,7 +793,7 @@ kbd {
   background-color: #333333;
   border-radius: 2px;
   color: #ffffff;
-  font-size: 85.714286%;
+  font-size: 75%;
   padding: 0.2em 0.4em;
 }
 kbd kbd {
@@ -806,7 +806,7 @@ pre {
   border-radius: 2px;
   color: $primary;
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 0;
   margin-bottom: 16px;
   padding: 16px 16px;
@@ -1052,8 +1052,8 @@ aside.onebox {
   padding: 16px 16px;
 }
 aside.onebox.amazon .source, aside.onebox.githubblob .source, aside.onebox.githubcommit .source, aside.onebox.githubgist .source, aside.onebox.githubissue .source, aside.onebox.githubpullrequest .source, aside.onebox.googledocs .source, aside.onebox.instagram .source, aside.onebox.stackexchange .source, aside.onebox.twitterstatus .source, aside.onebox.wikipedia .source {
-  background-size: 20px 20px;
-  padding-left: 36px;
+  background-size: 22px 22px;
+  padding-left: 38px;
 }
 aside.onebox header {
   margin-bottom: 8px;
@@ -1116,7 +1116,7 @@ aside.quote {
   margin-bottom: 16px;
 }
 aside.quote blockquote {
-  background: linear-gradient(#d9e6f2, #c9dbed);
+  background: color-chooser(#08529b, linear-gradient(#d9e6f2, #c9dbed));
   width: auto !important;
 }
 aside.quote blockquote:last-child {
@@ -1149,7 +1149,7 @@ aside.quote .expanded-quote > :last-child:empty {
 aside.quote .title {
   -ms-flex-align: center;
       align-items: center;
-  background-color: #d9e6f2;
+  background-color: color-chooser(#08529b, #d9e6f2);
   border-left: 0;
   color: color-chooser(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.6));
   display: -ms-flexbox;
@@ -1168,7 +1168,7 @@ aside.quote .title .avatar {
 }
 
 div.poll {
-  background-image: linear-gradient(#f8edd8, #f4e3c2);
+  background: color-chooser($tertiary, linear-gradient(#f8edd8, #f4e3c2));
   border: 0;
   margin: 0 -16px 16px;
   width: calc(100% + 32px);
@@ -1208,14 +1208,14 @@ div.poll .poll-buttons a {
   border: 0;
   border-radius: 2px;
   box-shadow: none;
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1;
   margin: 0;
   max-width: 100%;
-  padding: 11px 16px;
+  padding: 10px 16px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -1231,16 +1231,16 @@ div.poll .poll-buttons a {
 }
 .discourse-no-touch div.poll .poll-buttons a:hover, .discourse-no-touch div.poll .poll-buttons a.btn-hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 div.poll .poll-buttons a:focus {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   outline: 0;
 }
 div.poll .poll-buttons a:active, .discourse-no-touch div.poll .poll-buttons a:active, div.poll .poll-buttons a.btn-active, .discourse-no-touch div.poll .poll-buttons a.btn-active {
   background-color: color-chooser(rgba(204, 204, 204, 0.25), rgba(153, 153, 153, 0.4));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 div.poll .poll-buttons a[disabled], div.poll .poll-buttons a.disabled {
   background-color: transparent !important;
@@ -1300,7 +1300,7 @@ div.poll .poll-container {
 }
 div.poll .poll-info {
   border-left-color: color-chooser(rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.12));
-  color: #08529b;
+  color: color-chooser(#ffffff, #08529b);
   padding: 16px 16px;
 }
 div.poll .poll-info p {
@@ -1399,7 +1399,7 @@ div.poll .results .option {
   border: 0;
   border-radius: 2px;
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.4);
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.5;
   padding: 16px 0;
 }
@@ -1407,7 +1407,7 @@ div.poll .results .option {
   display: block;
   font-size: inherit;
   line-height: inherit;
-  padding: 6.25px 24px;
+  padding: 4.75px 24px;
   display: -ms-flexbox;
   display: flex;
 }
@@ -1440,7 +1440,7 @@ div.poll .results .option {
   border: 0;
   border-radius: 2px;
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.4);
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.5;
   padding: 16px 0;
   width: auto;
@@ -1458,11 +1458,11 @@ div.poll .results .option {
 .popup-menu h4,
 .popup-menu h5,
 .popup-menu h6 {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bolder;
   line-height: 1.5;
   margin: 0;
-  padding: 6.25px 24px;
+  padding: 4.75px 24px;
   white-space: nowrap;
 }
 .popup-menu ul {
@@ -1474,7 +1474,7 @@ div.poll .results .option {
   display: block;
   font-size: inherit;
   line-height: inherit;
-  padding: 6.25px 24px;
+  padding: 4.75px 24px;
   border-radius: 0;
   text-transform: none;
   white-space: nowrap;
@@ -1520,7 +1520,7 @@ form > .ember-view:empty {
 
 input[type="checkbox"],
 input[type="radio"] {
-  margin-top: 4.000004px;
+  margin-top: 5.428576px;
   margin-right: 4px;
   margin-left: 0;
 }
@@ -1761,7 +1761,7 @@ body .form-vertical .controls .d-editor:last-child {
   padding: 8px 8px;
 }
 .image-upload-controls label.btn {
-  padding: 11px 16px;
+  padding: 10px 16px;
 }
 
 body .input-append,
@@ -1902,7 +1902,7 @@ div.ac-wrap div.item {
   display: flex;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: normal;
   height: 32px;
   line-height: 1;
@@ -1959,7 +1959,7 @@ div.ac-wrap input[type='text'] {
   border: 0;
   border-radius: 2px;
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.4);
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.5;
   padding: 16px 0;
 }
@@ -1970,7 +1970,7 @@ div.ac-wrap input[type='text'] {
   display: block;
   font-size: inherit;
   line-height: inherit;
-  padding: 6.25px 24px;
+  padding: 4.75px 24px;
   -ms-flex-align: center;
       align-items: center;
   color: inherit;
@@ -2260,7 +2260,7 @@ div.ac-wrap input[type='text'] {
   border-bottom-color: color-chooser(rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.12));
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  padding: 6.25px 0;
+  padding: 4.75px 0;
 }
 .select-kit.combo-box .select-kit-filter .filter-icon {
   margin-right: 24px;
@@ -2279,7 +2279,7 @@ div.ac-wrap input[type='text'] {
   border: 0;
   border-radius: 2px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.4);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1;
   text-align: center;
@@ -2302,7 +2302,7 @@ div.ac-wrap input[type='text'] {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.4);
 }
 .select-kit.combo-box .select-kit-row {
-  padding: 6.25px 24px;
+  padding: 4.75px 24px;
 }
 .select-kit.combo-box .select-kit-row.no-content {
   display: block;
@@ -2329,7 +2329,7 @@ div.ac-wrap input[type='text'] {
   padding: 16px 0;
 }
 .select-kit.dropdown-select-box .select-kit-row {
-  padding: 6.25px 24px;
+  padding: 4.75px 24px;
 }
 .select-kit.dropdown-select-box .select-kit-row .icons {
   margin-top: 0;
@@ -2387,7 +2387,7 @@ div.ac-wrap input[type='text'] {
   border-radius: 2px;
   display: -ms-flexbox;
   display: flex;
-  font-size: 85.714286%;
+  font-size: 75%;
   height: 24px;
   padding: 0.2em 0.4em;
 }
@@ -2416,13 +2416,13 @@ div.ac-wrap input[type='text'] {
 }
 .select-kit.multi-select .select-kit-row {
   margin: 0;
-  padding: 6.25px 24px;
+  padding: 4.75px 24px;
 }
 .select-kit .select-kit-body {
   background-color: color-chooser(#424242, #ffffff);
   border-radius: 2px;
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.4);
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.5;
 }
 .select-kit .select-kit-collection {
@@ -2444,7 +2444,7 @@ div.ac-wrap input[type='text'] {
 .select-kit .select-kit-header .caret-icon {
   background-color: transparent !important;
   border: 0;
-  font-size: 13px !important;
+  font-size: 15px !important;
   margin-left: 4px;
   padding-left: 0;
 }
@@ -2509,7 +2509,7 @@ div.ac-wrap input[type='text'] {
   box-shadow: none;
   color: $header-primary;
   margin-left: 4px;
-  padding: 9.5px 16px;
+  padding: 8.5px 16px;
 }
 .discourse-no-touch .d-header .header-buttons .btn:hover, .discourse-no-touch .d-header .header-buttons .btn.btn-hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
@@ -2555,7 +2555,7 @@ div.ac-wrap input[type='text'] {
 }
 
 .d-header-icons .badge-notification {
-  min-width: 20.000008px;
+  min-width: 22.857152px;
 }
 .d-header-icons .d-icon {
   color: inherit;
@@ -2595,7 +2595,7 @@ div.ac-wrap input[type='text'] {
 }
 .d-header-icons .ring {
   margin-right: 1px;
-  top: -3.357141px !important;
+  top: -2.642855px !important;
 }
 
 .extra-info h1, .extra-info.two-rows h1 {
@@ -2661,7 +2661,7 @@ ol.category-breadcrumb li {
   margin-bottom: 0;
 }
 .list-controls .btn {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   margin: 0 0 16px 4px;
 }
@@ -3803,7 +3803,7 @@ ol.category-breadcrumb li {
   font-weight: normal;
   letter-spacing: normal;
   line-height: 1;
-  min-width: 1.714286em;
+  min-width: 1.5em;
   text-align: center;
   text-rendering: optimizeLegibility;
   text-transform: none;
@@ -3875,7 +3875,7 @@ div.menu-links-header .menu-links-row {
   width: 100%;
 }
 .menu-panel b.topics-count {
-  font-size: 85.714286%;
+  font-size: 75%;
 }
 .menu-panel hr {
   margin: 8px 0;
@@ -3956,14 +3956,14 @@ div.menu-links-header .menu-links-row {
   border: 0;
   border-radius: 2px;
   box-shadow: none;
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1;
   margin: 0;
   max-width: 100%;
-  padding: 11px 16px;
+  padding: 10px 16px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -3979,16 +3979,16 @@ div.menu-links-header .menu-links-row {
 }
 .discourse-no-touch .search-menu .results .show-more .widget-link:hover, .discourse-no-touch .search-menu .results .show-more .widget-link.btn-hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .search-menu .results .show-more .widget-link:focus {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   outline: 0;
 }
 .search-menu .results .show-more .widget-link:active, .discourse-no-touch .search-menu .results .show-more .widget-link:active, .search-menu .results .show-more .widget-link.btn-active, .discourse-no-touch .search-menu .results .show-more .widget-link.btn-active {
   background-color: color-chooser(rgba(204, 204, 204, 0.25), rgba(153, 153, 153, 0.4));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .search-menu .results .show-more .widget-link[disabled], .search-menu .results .show-more .widget-link.disabled {
   background-color: transparent !important;
@@ -4069,7 +4069,7 @@ div.menu-links-header .menu-links-row {
 .user-menu .notifications .show-all .btn {
   background-color: transparent;
   box-shadow: none;
-  padding: 11px 16px;
+  padding: 10px 16px;
 }
 .discourse-no-touch .user-menu .notifications .show-all .btn:hover, .discourse-no-touch .user-menu .notifications .show-all .btn.btn-hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
@@ -4123,7 +4123,7 @@ div.menu-links-header .menu-links-row {
 
 .close {
   color: color-chooser(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.6));
-  font-size: 14px;
+  font-size: 16px;
 }
 .close:active, .close:focus, .close:hover {
   color: color-chooser(white, rgba(0, 0, 0, 0.87));
@@ -4138,14 +4138,14 @@ div.menu-links-header .menu-links-row {
   border: 0;
   border-radius: 2px;
   box-shadow: none;
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1;
   margin: 0;
   max-width: 100%;
-  padding: 11px 16px;
+  padding: 10px 16px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -4164,16 +4164,16 @@ div.menu-links-header .menu-links-row {
 }
 .discourse-no-touch .d-modal-cancel:hover, .discourse-no-touch .d-modal-cancel.btn-hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .d-modal-cancel:focus {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   outline: 0;
 }
 .d-modal-cancel:active, .discourse-no-touch .d-modal-cancel:active, .d-modal-cancel.btn-active, .discourse-no-touch .d-modal-cancel.btn-active {
   background-color: color-chooser(rgba(204, 204, 204, 0.25), rgba(153, 153, 153, 0.4));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .d-modal-cancel[disabled], .d-modal-cancel.disabled {
   background-color: transparent !important;
@@ -4189,14 +4189,14 @@ div.menu-links-header .menu-links-row {
   border: 0;
   border-radius: 2px;
   box-shadow: none;
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1;
   margin: 0;
   max-width: 100%;
-  padding: 11px 16px;
+  padding: 10px 16px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -4215,16 +4215,16 @@ div.menu-links-header .menu-links-row {
 }
 .discourse-no-touch .discourse-local-dates-create-modal-footer .cancel-action:hover, .discourse-no-touch .discourse-local-dates-create-modal-footer .cancel-action.btn-hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .discourse-local-dates-create-modal-footer .cancel-action:focus {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   outline: 0;
 }
 .discourse-local-dates-create-modal-footer .cancel-action:active, .discourse-no-touch .discourse-local-dates-create-modal-footer .cancel-action:active, .discourse-local-dates-create-modal-footer .cancel-action.btn-active, .discourse-no-touch .discourse-local-dates-create-modal-footer .cancel-action.btn-active {
   background-color: color-chooser(rgba(204, 204, 204, 0.25), rgba(153, 153, 153, 0.4));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .discourse-local-dates-create-modal-footer .cancel-action[disabled], .discourse-local-dates-create-modal-footer .cancel-action.disabled {
   background-color: transparent !important;
@@ -4422,7 +4422,7 @@ div.menu-links-header .menu-links-row {
 }
 
 .mfp-counter {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 1.428572;
@@ -4451,7 +4451,7 @@ div.menu-links-header .menu-links-row {
 }
 
 .mfp-title {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 1.428572;
@@ -4610,7 +4610,7 @@ div.menu-links-header .menu-links-row {
 }
 .modal .nav > li.active > a:focus, .modal .nav > li.active > a:hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.25), rgba(153, 153, 153, 0.4));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .modal .nav > li.active > a::before {
   opacity: 1;
@@ -4630,7 +4630,7 @@ div.menu-links-header .menu-links-row {
 }
 .modal .nav > li > a.active:focus, .modal .nav > li > a.active:hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.25), rgba(153, 153, 153, 0.4));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .modal .nav > li > a.active::before {
   opacity: 1;
@@ -4668,14 +4668,14 @@ div.menu-links-header .menu-links-row {
   border: 0;
   border-radius: 2px;
   box-shadow: none;
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1;
   margin: 0;
   max-width: 100%;
-  padding: 11px 16px;
+  padding: 10px 16px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -4694,16 +4694,16 @@ div.menu-links-header .menu-links-row {
 }
 .discourse-no-touch .modal-footer :not(.disclaimer) a:hover, .discourse-no-touch .modal-footer :not(.disclaimer) a.btn-hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .modal-footer :not(.disclaimer) a:focus {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   outline: 0;
 }
 .modal-footer :not(.disclaimer) a:active, .discourse-no-touch .modal-footer :not(.disclaimer) a:active, .modal-footer :not(.disclaimer) a.btn-active, .discourse-no-touch .modal-footer :not(.disclaimer) a.btn-active {
   background-color: color-chooser(rgba(204, 204, 204, 0.25), rgba(153, 153, 153, 0.4));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .modal-footer :not(.disclaimer) a[disabled], .modal-footer :not(.disclaimer) a.disabled {
   background-color: transparent !important;
@@ -4840,14 +4840,14 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
   border: 0;
   border-radius: 2px;
   box-shadow: none;
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1;
   margin: 0;
   max-width: 100%;
-  padding: 11px 16px;
+  padding: 10px 16px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -4866,16 +4866,16 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
 }
 .discourse-no-touch .upload-selector ~ .modal-footer a.pull-right:hover, .discourse-no-touch .upload-selector ~ .modal-footer a.pull-right.btn-hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .upload-selector ~ .modal-footer a.pull-right:focus {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   outline: 0;
 }
 .upload-selector ~ .modal-footer a.pull-right:active, .discourse-no-touch .upload-selector ~ .modal-footer a.pull-right:active, .upload-selector ~ .modal-footer a.pull-right.btn-active, .discourse-no-touch .upload-selector ~ .modal-footer a.pull-right.btn-active {
   background-color: color-chooser(rgba(204, 204, 204, 0.25), rgba(153, 153, 153, 0.4));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .upload-selector ~ .modal-footer a.pull-right[disabled], .upload-selector ~ .modal-footer a.pull-right.disabled {
   background-color: transparent !important;
@@ -4919,7 +4919,7 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
   position: absolute !important;
 }
 .edit-topic-timer-modal .auto-update-input .topic-status-info h3 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 1.428572;
@@ -4980,14 +4980,14 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
   border: 0;
   border-radius: 2px;
   box-shadow: none;
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1;
   margin: 0;
   max-width: 100%;
-  padding: 11px 16px;
+  padding: 10px 16px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -5010,16 +5010,16 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
 }
 .discourse-no-touch .pika-button:hover, .discourse-no-touch .pika-button.btn-hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .pika-button:focus {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   outline: 0;
 }
 .pika-button:active, .discourse-no-touch .pika-button:active, .pika-button.btn-active, .discourse-no-touch .pika-button.btn-active {
   background-color: color-chooser(rgba(204, 204, 204, 0.25), rgba(153, 153, 153, 0.4));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .pika-button[disabled], .pika-button.disabled {
   background-color: transparent !important;
@@ -5028,7 +5028,7 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
 .pika-button:hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
   border-radius: 50%;
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .is-disabled .pika-button {
   color: color-chooser(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.26));
@@ -5060,7 +5060,7 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
   line-height: 1;
   margin: 0;
   opacity: 1;
-  padding: 11px 0;
+  padding: 10px 0;
   text-indent: 100%;
   transition-duration: 0.3s;
   transition-property: background-color, color;
@@ -5070,7 +5070,7 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
 .pika-next::before,
 .pika-prev::before {
   position: absolute;
-  top: 11px;
+  top: 10px;
   left: 6px;
   text-indent: 0;
 }
@@ -5123,7 +5123,7 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
 }
 .pika-table th {
   color: color-chooser(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.6));
-  font-size: 12px;
+  font-size: 16px;
   font-weight: normal;
   line-height: 1;
 }
@@ -5154,7 +5154,7 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
 .composer-popup a.close {
   color: color-chooser(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.6));
   float: right;
-  font-size: 14px;
+  font-size: 16px;
   opacity: 1;
   position: relative;
   top: 3.999996px;
@@ -5251,10 +5251,10 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
   display: none;
 }
 #reply-control.saving .spinner {
-  height: 20.000008px;
+  height: 22.857152px;
   margin: 0 0 0 8px;
   vertical-align: middle;
-  width: 20.000008px;
+  width: 22.857152px;
 }
 #reply-control .add-warning {
   margin-right: 16px;
@@ -5327,7 +5327,7 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
   display: flex;
 }
 #reply-control .d-editor-button-bar .btn {
-  font-size: 13px;
+  font-size: 15px;
   margin-right: 1px;
   padding: 5px 16px;
 }
@@ -5337,9 +5337,9 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
 #reply-control .d-editor-button-bar .select-kit-header {
   background-color: transparent;
   box-shadow: none;
-  font-size: 13px;
+  font-size: 15px;
   height: auto;
-  padding: 9.5px 16px;
+  padding: 8.5px 16px;
 }
 #reply-control .d-editor-button-bar .select-kit-header.is-focused {
   background-color: color-chooser(rgba(204, 204, 204, 0.25), rgba(153, 153, 153, 0.4));
@@ -5370,8 +5370,8 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
   background-color: color-chooser(rgba(0, 0, 0, 0.12), rgba(255, 255, 255, 0.12));
   border-bottom: 0;
   display: inline-block;
-  font-size: 85.714286%;
-  height: 20.000008px;
+  font-size: 75%;
+  height: 22.857152px;
   margin: 0 0 0 8px;
   padding: 0 8px;
   width: auto;
@@ -5407,23 +5407,23 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
   border: 0;
   border-radius: 2px;
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.4);
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.5;
   padding: 16px 0;
 }
 #reply-control .popup-menu h3 {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bolder;
   line-height: 1.5;
   margin: 0;
-  padding: 6.25px 24px;
+  padding: 4.75px 24px;
   white-space: nowrap;
 }
 #reply-control .popup-menu .btn {
   display: block;
   font-size: inherit;
   line-height: inherit;
-  padding: 6.25px 24px;
+  padding: 4.75px 24px;
 }
 #reply-control .reply-area {
   -ms-flex-positive: 1;
@@ -5536,14 +5536,14 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
   border: 0;
   border-radius: 2px;
   box-shadow: none;
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1;
   margin: 0;
   max-width: 100%;
-  padding: 11px 16px;
+  padding: 10px 16px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -5560,16 +5560,16 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
 }
 .discourse-no-touch #reply-control .submit-panel .cancel:hover, .discourse-no-touch #reply-control .submit-panel .cancel.btn-hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 #reply-control .submit-panel .cancel:focus {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   outline: 0;
 }
 #reply-control .submit-panel .cancel:active, .discourse-no-touch #reply-control .submit-panel .cancel:active, #reply-control .submit-panel .cancel.btn-active, .discourse-no-touch #reply-control .submit-panel .cancel.btn-active {
   background-color: color-chooser(rgba(204, 204, 204, 0.25), rgba(153, 153, 153, 0.4));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 #reply-control .submit-panel .cancel[disabled], #reply-control .submit-panel .cancel.disabled {
   background-color: transparent !important;
@@ -5590,14 +5590,14 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
   border: 0;
   border-radius: 2px;
   box-shadow: none;
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1;
   margin: 0;
   max-width: 100%;
-  padding: 11px 16px;
+  padding: 10px 16px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -5619,16 +5619,16 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
 }
 .discourse-no-touch #reply-control .toggle-preview:hover, .discourse-no-touch #reply-control .toggle-preview.btn-hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 #reply-control .toggle-preview:focus {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   outline: 0;
 }
 #reply-control .toggle-preview:active, .discourse-no-touch #reply-control .toggle-preview:active, #reply-control .toggle-preview.btn-active, .discourse-no-touch #reply-control .toggle-preview.btn-active {
   background-color: color-chooser(rgba(204, 204, 204, 0.25), rgba(153, 153, 153, 0.4));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 #reply-control .toggle-preview[disabled], #reply-control .toggle-preview.disabled {
   background-color: transparent !important;
@@ -5710,7 +5710,7 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
   padding-top: 0;
 }
 .fps-result .search-link .topic-statuses {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 1.428572;
@@ -5743,14 +5743,14 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
   border: 0;
   border-radius: 2px;
   box-shadow: none;
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1;
   margin: 0;
   max-width: 100%;
-  padding: 11px 16px;
+  padding: 10px 16px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -5764,22 +5764,22 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
   vertical-align: middle;
   white-space: nowrap;
   background-color: color-chooser($tertiary, #ffffff);
-  border: 1px solid $tertiary;
-  color: $tertiary;
+  border: 1px solid color-chooser($quaternary, $tertiary);
+  color: color-chooser($quaternary, $tertiary);
   margin-left: 16px;
 }
 .discourse-no-touch .fps-select a:hover, .discourse-no-touch .fps-select a.btn-hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .fps-select a:focus {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   outline: 0;
 }
 .fps-select a:active, .discourse-no-touch .fps-select a:active, .fps-select a.btn-active, .discourse-no-touch .fps-select a.btn-active {
   background-color: color-chooser(rgba(204, 204, 204, 0.25), rgba(153, 153, 153, 0.4));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .fps-select a[disabled], .fps-select a.disabled {
   background-color: transparent !important;
@@ -5839,8 +5839,8 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
   margin-bottom: 16px;
 }
 .search-advanced .search-bar .search-cta {
-  padding-top: 11px;
-  padding-bottom: 11px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .search-advanced .search-bar .search-query {
   margin-right: 16px;
@@ -5863,7 +5863,7 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
   margin-left: 16px;
 }
 .search-container .search-advanced .search-title .fps-select a {
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 16px;
 }
 .search-container .search-advanced .search-title .fps-select a:hover {
@@ -5976,14 +5976,14 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
   border: 0;
   border-radius: 2px;
   box-shadow: none;
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1;
   margin: 0;
   max-width: 100%;
-  padding: 11px 16px;
+  padding: 10px 16px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -6002,16 +6002,16 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
 }
 .discourse-no-touch #share-link .reply-as-new-topic a:hover, .discourse-no-touch #share-link .reply-as-new-topic a.btn-hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 #share-link .reply-as-new-topic a:focus {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   outline: 0;
 }
 #share-link .reply-as-new-topic a:active, .discourse-no-touch #share-link .reply-as-new-topic a:active, #share-link .reply-as-new-topic a.btn-active, .discourse-no-touch #share-link .reply-as-new-topic a.btn-active {
   background-color: color-chooser(rgba(204, 204, 204, 0.25), rgba(153, 153, 153, 0.4));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 #share-link .reply-as-new-topic a[disabled], #share-link .reply-as-new-topic a.disabled {
   background-color: transparent !important;
@@ -6059,7 +6059,7 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
 .table thead td,
 .table thead th {
   color: color-chooser(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.6));
-  font-size: 12px;
+  font-size: 16px;
   height: 56px;
   padding: 12px 12px;
   vertical-align: middle;
@@ -6101,8 +6101,8 @@ tbody:last-child tr:last-child, thead:last-child tr:last-child {
   margin-right: 8px;
 }
 .timeline-container .topic-timeline .back-button {
-  font-size: 13px;
-  padding: 9.5px 16px;
+  font-size: 15px;
+  padding: 8.5px 16px;
 }
 .timeline-container .topic-timeline .dropdown-menu,
 .timeline-container .topic-timeline .popup-menu {
@@ -6111,7 +6111,7 @@ tbody:last-child tr:last-child, thead:last-child tr:last-child {
   border: 0;
   border-radius: 2px;
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.4);
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.5;
   padding: 16px 0;
 }
@@ -6122,15 +6122,15 @@ tbody:last-child tr:last-child, thead:last-child tr:last-child {
   display: block;
   font-size: inherit;
   line-height: inherit;
-  padding: 6.25px 24px;
+  padding: 4.75px 24px;
 }
 .timeline-container .topic-timeline .dropdown-menu h3,
 .timeline-container .topic-timeline .popup-menu h3 {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bolder;
   line-height: 1.5;
   margin: 0;
-  padding: 6.25px 24px;
+  padding: 4.75px 24px;
   white-space: nowrap;
 }
 .timeline-container .topic-timeline .dropdown-menu .btn,
@@ -6210,7 +6210,7 @@ tbody:last-child tr:last-child, thead:last-child tr:last-child {
 }
 
 .dropdown-select-box.period-chooser.select-kit .period-chooser-header {
-  padding: 11px 16px;
+  padding: 10px 16px;
 }
 .dropdown-select-box.period-chooser.select-kit .period-chooser-header, .dropdown-select-box.period-chooser.select-kit .period-chooser-header:hover, .dropdown-select-box.period-chooser.select-kit .period-chooser-header.is-focused {
   background-color: color-chooser($tertiary, #ffffff);
@@ -6222,7 +6222,7 @@ tbody:last-child tr:last-child, thead:last-child tr:last-child {
   background-image: linear-gradient(to bottom, color-chooser(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12)), color-chooser(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12)));
 }
 .dropdown-select-box.period-chooser.select-kit .period-chooser-header h2.selected-name {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1;
   margin: 0;
@@ -6240,10 +6240,10 @@ tbody:last-child tr:last-child, thead:last-child tr:last-child {
 }
 .dropdown-select-box.period-chooser.select-kit .period-chooser-row {
   font-size: inherit;
-  padding: 6.25px 24px;
+  padding: 4.75px 24px;
 }
 .dropdown-select-box.period-chooser.select-kit .period-chooser-row .top-date-string {
-  font-size: 85.714286%;
+  font-size: 75%;
   margin-left: 4px;
 }
 .dropdown-select-box.period-chooser.select-kit .select-kit-collection {
@@ -6257,7 +6257,7 @@ tbody:last-child tr:last-child, thead:last-child tr:last-child {
   border-bottom: 1px solid color-chooser(rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.12));
   border-radius: 0;
   box-shadow: none;
-  padding: 17.999996px 24px;
+  padding: 16.571424px 24px;
 }
 #list-area .top-lists h2 {
   margin: 0;
@@ -6337,9 +6337,9 @@ tbody:last-child tr:last-child, thead:last-child tr:last-child {
   text-align: right;
 }
 .tlp-featured-topics.has-topics .topics .tlp-featured-topic .user .avatar {
-  height: 20px;
+  height: 22px;
   margin-left: 4px;
-  width: 20px;
+  width: 22px;
 }
 
 .top-lists {
@@ -6435,7 +6435,7 @@ tbody:last-child tr:last-child, thead:last-child tr:last-child {
   border: 0;
   border-radius: 2px;
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.4);
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.5;
   padding: 16px 0;
 }
@@ -6446,7 +6446,7 @@ tbody:last-child tr:last-child, thead:last-child tr:last-child {
   font-size: inherit;
   line-height: inherit;
   margin: 0 !important;
-  padding: 6.25px 24px;
+  padding: 4.75px 24px;
   text-align: inherit;
   text-transform: none;
 }
@@ -6514,7 +6514,7 @@ tbody:last-child tr:last-child, thead:last-child tr:last-child {
 .topic-list thead td,
 .topic-list thead th {
   color: color-chooser(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.6));
-  font-size: 12px;
+  font-size: 16px;
   height: 56px;
   padding: 12px 12px;
   vertical-align: middle;
@@ -6543,13 +6543,13 @@ tbody:last-child tr:last-child, thead:last-child tr:last-child {
 }
 .topic-list .btn,
 .topic-list .btn-flat {
-  font-size: 13px;
-  padding: 9.5px 16px;
+  font-size: 15px;
+  padding: 8.5px 16px;
 }
 .topic-list .btn-flat.bulk-select {
   margin-left: -8px;
   min-width: 32px;
-  padding: 9.5px 0;
+  padding: 8.5px 0;
 }
 .topic-list .bulk-select-topics .btn {
   margin-right: 4px;
@@ -6661,9 +6661,9 @@ tbody:last-child tr:last-child, thead:last-child tr:last-child {
 }
 
 .topic-thumbnail {
-  padding-top: 3.000004px;
+  padding-top: 3.428576px;
   padding-right: 12px;
-  padding-bottom: 3.000004px;
+  padding-bottom: 3.428576px;
 }
 .topic-thumbnail .thumbnail {
   border-radius: 2px;
@@ -6675,7 +6675,7 @@ tbody:last-child tr:last-child, thead:last-child tr:last-child {
 
 .categories-and-latest .discourse-tags .discourse-tag,
 .categories-and-top .discourse-tags .discourse-tag {
-  font-size: 85.714286%;
+  font-size: 75%;
   margin-right: 8px;
 }
 
@@ -6794,7 +6794,7 @@ tbody:last-child tr:last-child, thead:last-child tr:last-child {
 .category-list thead td,
 .category-list thead th {
   color: color-chooser(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.6));
-  font-size: 12px;
+  font-size: 16px;
   height: 56px;
   padding: 12px 12px;
   vertical-align: middle;
@@ -6897,7 +6897,7 @@ tbody:last-child tr:last-child, thead:last-child tr:last-child {
 .latest-topic-list .table-heading {
   border-bottom: 1px solid color-chooser(rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.12));
   color: color-chooser(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.6));
-  font-size: 12px;
+  font-size: 16px;
   padding: 12px 24px;
 }
 
@@ -7006,9 +7006,9 @@ nav.post-controls button {
   padding-right: 16px;
   padding-left: 16px;
   color: color-chooser(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.6));
-  font-size: 14px;
+  font-size: 16px;
   margin-right: 0;
-  padding: 11px 16px;
+  padding: 10px 16px;
 }
 nav.post-controls button:first-child {
   margin-left: 0;
@@ -7021,7 +7021,7 @@ nav.post-controls button:active {
   box-shadow: none;
 }
 nav.post-controls button.bookmark {
-  padding: 11px 16px;
+  padding: 10px 16px;
 }
 nav.post-controls button.d-hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
@@ -7076,16 +7076,16 @@ nav.post-controls .like-button {
 }
 nav.post-controls .like-button:focus, nav.post-controls .like-button:hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 nav.post-controls .like-button:active {
   background-color: color-chooser(rgba(204, 204, 204, 0.25), rgba(153, 153, 153, 0.4));
   box-shadow: none;
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 nav.post-controls .like-button .like-count {
   color: inherit !important;
-  font-size: 14px;
+  font-size: 16px;
 }
 nav.post-controls .like-button .like-count:not(:last-child) {
   border-top-right-radius: 0;
@@ -7097,7 +7097,7 @@ nav.post-controls .like-button .like-count.regular-likes {
 }
 nav.post-controls .like-button .toggle-like {
   margin-left: 0;
-  padding: 11px 16px;
+  padding: 10px 16px;
 }
 nav.post-controls .like-button .toggle-like:not(:first-child) {
   border-top-left-radius: 0;
@@ -7112,23 +7112,23 @@ nav.post-controls .post-admin-menu {
   border: 0;
   border-radius: 2px;
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.4);
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.5;
   padding: 16px 0;
 }
 nav.post-controls .post-admin-menu h3 {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bolder;
   line-height: 1.5;
   margin: 0;
-  padding: 6.25px 24px;
+  padding: 4.75px 24px;
   white-space: nowrap;
 }
 nav.post-controls .post-admin-menu li {
   display: block;
   font-size: inherit;
   line-height: inherit;
-  padding: 6.25px 24px;
+  padding: 4.75px 24px;
   margin: 0;
   width: 100%;
 }
@@ -7204,7 +7204,7 @@ section.post-menu-area {
   border: 0;
   color: color-chooser(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.6));
   margin: 8px 16px;
-  padding: 9.5px 16px;
+  padding: 8.5px 16px;
   position: static;
 }
 .discourse-no-touch .embedded-posts .collapse-down:hover, .discourse-no-touch .embedded-posts .collapse-down.btn-hover,
@@ -7367,7 +7367,7 @@ section.post-menu-area {
   margin-left: 0;
 }
 .post-links-container ul li {
-  margin: -0.000004px 0;
+  margin: -1.428576px 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -7401,7 +7401,7 @@ section.post-menu-area {
 }
 
 .read-state {
-  font-size: 14px;
+  font-size: 16px;
   height: 24px;
   line-height: 24px;
   top: 0;
@@ -7412,6 +7412,9 @@ section.post-menu-area {
   margin-left: 8px;
 }
 
+.signup-cta {
+  background: color-chooser(#08529b, $tertiary);
+}
 .signup-cta .buttons {
   -ms-flex-align: center;
       align-items: center;
@@ -7455,14 +7458,14 @@ section.post-menu-area {
   border: 0;
   border-radius: 2px;
   box-shadow: none;
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1;
   margin: 0;
   max-width: 100%;
-  padding: 11px 16px;
+  padding: 10px 16px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -7476,23 +7479,23 @@ section.post-menu-area {
   vertical-align: middle;
   white-space: nowrap;
   color: color-chooser(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.6));
-  font-size: 13px;
-  margin-top: -5.999996px;
-  margin-bottom: -5.999996px;
-  padding: 9.5px 16px;
+  font-size: 15px;
+  margin-top: -4.571424px;
+  margin-bottom: -4.571424px;
+  padding: 8.5px 16px;
 }
 .discourse-no-touch .small-action button:hover, .discourse-no-touch .small-action button.btn-hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .small-action button:focus {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   outline: 0;
 }
 .small-action button:active, .discourse-no-touch .small-action button:active, .small-action button.btn-active, .discourse-no-touch .small-action button.btn-active {
   background-color: color-chooser(rgba(204, 204, 204, 0.25), rgba(153, 153, 153, 0.4));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .small-action button[disabled], .small-action button.disabled {
   background-color: transparent !important;
@@ -7537,7 +7540,7 @@ section.post-menu-area {
   padding-left: 40px;
 }
 .small-action .topic-avatar {
-  margin-top: 1.999996px;
+  margin-top: 0.571424px;
   margin-right: 0;
   padding: 0;
   position: static;
@@ -7598,8 +7601,8 @@ section.post-menu-area {
   margin: 0 16px 0 0;
 }
 .topic-body .reply-to-tab .avatar {
-  height: 20.000008px;
-  width: 20.000008px;
+  height: 22.857152px;
+  width: 22.857152px;
 }
 
 #topic-footer-buttons {
@@ -7649,24 +7652,24 @@ section.post-menu-area {
   display: block;
   font-size: inherit;
   line-height: inherit;
-  padding: 6.25px 24px;
+  padding: 4.75px 24px;
 }
 #topic-footer-buttons .fa {
   opacity: 1;
 }
 #topic-footer-buttons .popup-menu h3 {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bolder;
   line-height: 1.5;
   margin: 0;
-  padding: 6.25px 24px;
+  padding: 4.75px 24px;
   white-space: nowrap;
 }
 #topic-footer-buttons .popup-menu .btn {
   display: block;
   font-size: inherit;
   line-height: inherit;
-  padding: 6.25px 24px;
+  padding: 4.75px 24px;
 }
 #topic-footer-buttons .topic-notifications-button {
   min-width: 100%;
@@ -7789,7 +7792,7 @@ section.post-menu-area {
 }
 .topic-map .link-summary .btn {
   background-color: transparent;
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .topic-map .link-summary .btn:focus, .topic-map .link-summary .btn:hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
@@ -7832,11 +7835,11 @@ section.post-menu-area {
       flex-wrap: wrap;
 }
 .topic-map .map .avatar {
-  height: 20.000008px;
-  width: 20.000008px;
+  height: 22.857152px;
+  width: 22.857152px;
 }
 .topic-map .map .number {
-  font-size: 20.000008px;
+  font-size: 22.857152px;
   line-height: 1;
 }
 .topic-map .map .topic-map-post {
@@ -7850,7 +7853,7 @@ section.post-menu-area {
   color: inherit;
   display: -ms-flexbox;
   display: flex;
-  font-size: 85.714286%;
+  font-size: 75%;
   height: 32px;
   margin: 8px 16px 8px 0;
   padding: 0 16px 0 36px;
@@ -7885,7 +7888,7 @@ section.post-menu-area {
   margin: 0 16px 0 0;
 }
 .topic-map .topic-links span.domain {
-  font-size: 85.714286%;
+  font-size: 75%;
 }
 .topic-map .topic-links td {
   padding: 0 0 8px;
@@ -7917,14 +7920,14 @@ section.post-menu-area {
   border: 0;
   border-radius: 2px;
   box-shadow: none;
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1;
   margin: 0;
   max-width: 100%;
-  padding: 11px 16px;
+  padding: 10px 16px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -7938,21 +7941,21 @@ section.post-menu-area {
   vertical-align: middle;
   white-space: nowrap;
   color: color-chooser(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.6));
-  font-size: 13px;
-  padding: 9.5px 16px;
+  font-size: 15px;
+  padding: 8.5px 16px;
 }
 .discourse-no-touch .topic-meta-data .post-info a:hover, .discourse-no-touch .topic-meta-data .post-info a.btn-hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .topic-meta-data .post-info a:focus {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   outline: 0;
 }
 .topic-meta-data .post-info a:active, .discourse-no-touch .topic-meta-data .post-info a:active, .topic-meta-data .post-info a.btn-active, .discourse-no-touch .topic-meta-data .post-info a.btn-active {
   background-color: color-chooser(rgba(204, 204, 204, 0.25), rgba(153, 153, 153, 0.4));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .topic-meta-data .post-info a[disabled], .topic-meta-data .post-info a.disabled {
   background-color: transparent !important;
@@ -8009,18 +8012,18 @@ section.post-menu-area {
   border-bottom-right-radius: 2px;
 }
 #topic-progress-wrapper .popup-menu h3 {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bolder;
   line-height: 1.5;
   margin: 0;
-  padding: 6.25px 24px;
+  padding: 4.75px 24px;
   white-space: nowrap;
 }
 #topic-progress-wrapper .popup-menu .btn {
   display: block;
   font-size: inherit;
   line-height: inherit;
-  padding: 6.25px 24px;
+  padding: 4.75px 24px;
 }
 #topic-progress-wrapper .topic-admin-menu-button-container {
   top: auto;
@@ -8062,7 +8065,7 @@ section.post-menu-area {
 }
 #topic-title a.edit-topic {
   color: $tertiary;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1;
   vertical-align: middle;
 }
@@ -8079,7 +8082,7 @@ section.post-menu-area {
 }
 #topic-title .private-message-glyph {
   float: none;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1;
   margin: 0;
   vertical-align: middle;
@@ -8093,7 +8096,7 @@ section.post-menu-area {
 #topic-title .topic-statuses {
   display: inline-block;
   float: none;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1;
   margin: 0;
   vertical-align: middle;
@@ -8192,7 +8195,7 @@ section.post-menu-area {
 .directory table thead td,
 .directory table thead th {
   color: color-chooser(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.6));
-  font-size: 12px;
+  font-size: 16px;
   height: 56px;
   padding: 12px 12px;
   vertical-align: middle;
@@ -8252,14 +8255,14 @@ section.post-menu-area {
   border: 0;
   border-radius: 2px;
   box-shadow: none;
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1;
   margin: 0;
   max-width: 100%;
-  padding: 11px 16px;
+  padding: 10px 16px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -8273,21 +8276,21 @@ section.post-menu-area {
   vertical-align: middle;
   white-space: nowrap;
   background-color: color-chooser($tertiary, #ffffff);
-  border: 1px solid $tertiary;
-  color: $tertiary;
+  border: 1px solid color-chooser($quaternary, $tertiary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .discourse-no-touch .display-row .controls a[data-ember-action]:not(.close):hover, .discourse-no-touch .display-row .controls a[data-ember-action]:not(.close).btn-hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .display-row .controls a[data-ember-action]:not(.close):focus {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   outline: 0;
 }
 .display-row .controls a[data-ember-action]:not(.close):active, .discourse-no-touch .display-row .controls a[data-ember-action]:not(.close):active, .display-row .controls a[data-ember-action]:not(.close).btn-active, .discourse-no-touch .display-row .controls a[data-ember-action]:not(.close).btn-active {
   background-color: color-chooser(rgba(204, 204, 204, 0.25), rgba(153, 153, 153, 0.4));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .display-row .controls a[data-ember-action]:not(.close)[disabled], .display-row .controls a[data-ember-action]:not(.close).disabled {
   background-color: transparent !important;
@@ -8385,7 +8388,7 @@ section.post-menu-area {
 .groups-table thead td,
 .groups-table thead th {
   color: color-chooser(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.6));
-  font-size: 12px;
+  font-size: 16px;
   height: 56px;
   padding: 12px 12px;
   vertical-align: middle;
@@ -8622,7 +8625,7 @@ section.post-menu-area {
 }
 .user-content .user-invite-list th {
   color: color-chooser(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.6));
-  font-size: 12px;
+  font-size: 16px;
   height: 56px;
   padding: 12px 12px;
   vertical-align: middle;
@@ -8663,7 +8666,7 @@ section.post-menu-area {
 }
 .user-main .about.collapsed-info .controls ul a {
   margin-bottom: 0;
-  padding: 11px 16px;
+  padding: 10px 16px;
 }
 .user-main .about.collapsed-info .details {
   padding: 16px 16px;
@@ -8698,7 +8701,7 @@ section.post-menu-area {
 }
 .user-main .about .controls a {
   margin-bottom: 8px;
-  padding: 11px 16px;
+  padding: 10px 16px;
   width: 100%;
 }
 .user-main .about .controls li:last-child a {
@@ -8720,7 +8723,7 @@ section.post-menu-area {
   margin-bottom: 0;
 }
 .user-main .about .details h3 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 1.428572;
@@ -8728,7 +8731,7 @@ section.post-menu-area {
   margin-bottom: 0;
 }
 .user-main .about .details h3 .d-icon::before {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1;
   vertical-align: middle;
 }
@@ -8753,7 +8756,7 @@ section.post-menu-area {
   line-height: 1.066667;
 }
 .user-main .about .details .primary h1 i::before {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1;
   vertical-align: middle;
 }
@@ -8821,7 +8824,7 @@ section.post-menu-area {
   color: inherit;
   display: -ms-flexbox;
   display: flex;
-  font-size: 13px;
+  font-size: 15px;
   height: 32px;
   line-height: 1;
   padding: 0 16px;
@@ -8856,7 +8859,7 @@ section.post-menu-area {
   display: inline-flex;
   height: 24px;
   min-width: 24px;
-  padding: 6.714282px 16px;
+  padding: 5.28571px 16px;
 }
 .user-main .staff-counters .active {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.4);
@@ -8909,7 +8912,7 @@ section.post-menu-area {
 }
 .user-navigation .nav-stacked a.active {
   background-color: $quaternary;
-  color: color-dynamic($quaternary);
+  color: color-chooser(#424242, color-dynamic($quaternary));
   font-weight: normal;
 }
 .user-navigation .nav-stacked li.archive {
@@ -8921,14 +8924,14 @@ section.post-menu-area {
   border: 0;
   border-radius: 2px;
   box-shadow: none;
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1;
   margin: 0;
   max-width: 100%;
-  padding: 11px 16px;
+  padding: 10px 16px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -8942,24 +8945,24 @@ section.post-menu-area {
   vertical-align: middle;
   white-space: nowrap;
   background-color: color-chooser($tertiary, #ffffff);
-  border: 1px solid $tertiary;
-  color: $tertiary;
+  border: 1px solid color-chooser($quaternary, $tertiary);
+  color: color-chooser($quaternary, $tertiary);
   display: block;
   margin-bottom: 24px;
   width: 100%;
 }
 .discourse-no-touch .user-navigation .new-private-message:hover, .discourse-no-touch .user-navigation .new-private-message.btn-hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .user-navigation .new-private-message:focus {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   outline: 0;
 }
 .user-navigation .new-private-message:active, .discourse-no-touch .user-navigation .new-private-message:active, .user-navigation .new-private-message.btn-active, .discourse-no-touch .user-navigation .new-private-message.btn-active {
   background-color: color-chooser(rgba(204, 204, 204, 0.25), rgba(153, 153, 153, 0.4));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .user-navigation .new-private-message[disabled], .user-navigation .new-private-message.disabled {
   background-color: transparent !important;
@@ -9107,8 +9110,8 @@ section.post-menu-area {
   margin-right: 16px;
 }
 .user-stream .avatar-link .avatar {
-  height: 44px;
-  width: 44px;
+  height: 46px;
+  width: 46px;
 }
 .user-stream .category {
   max-height: 24px;
@@ -9290,7 +9293,7 @@ section.post-menu-area {
 }
 .user-theme-creator .theme-details h1 a,
 .user-theme-creator .theme-details h2 a {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1;
   vertical-align: middle;
 }
@@ -9362,7 +9365,7 @@ section.post-menu-area {
   line-height: 1.176471;
   background-color: color-chooser(#212121, #f5f5f5);
   margin-right: 0;
-  min-width: 90.285714px;
+  min-width: 83px;
   padding: 16px 16px;
 }
 .badge-card .badge-contents .badge-info {
@@ -9387,7 +9390,7 @@ section.post-menu-area {
   border-radius: 12px;
   display: -ms-flexbox;
   display: flex;
-  font-size: 14px;
+  font-size: 16px;
   height: 24px;
   -ms-flex-pack: center;
       justify-content: center;
@@ -9397,7 +9400,7 @@ section.post-menu-area {
 }
 .badge-card .grant-count {
   color: color-chooser(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.6));
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   line-height: 1;
   top: 8px;
@@ -9448,14 +9451,14 @@ section.post-menu-area {
   border: 0;
   border-radius: 2px;
   box-shadow: none;
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1;
   margin: 0;
   max-width: 100%;
-  padding: 11px 16px;
+  padding: 10px 16px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -9469,21 +9472,21 @@ section.post-menu-area {
   vertical-align: middle;
   white-space: nowrap;
   background-color: color-chooser($tertiary, #ffffff);
-  border: 1px solid $tertiary;
-  color: $tertiary;
+  border: 1px solid color-chooser($quaternary, $tertiary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .discourse-no-touch .badges-section.top-section > p .more:hover, .discourse-no-touch .badges-section.top-section > p .more.btn-hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .badges-section.top-section > p .more:focus {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   outline: 0;
 }
 .badges-section.top-section > p .more:active, .discourse-no-touch .badges-section.top-section > p .more:active, .badges-section.top-section > p .more.btn-active, .discourse-no-touch .badges-section.top-section > p .more.btn-active {
   background-color: color-chooser(rgba(204, 204, 204, 0.25), rgba(153, 153, 153, 0.4));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .badges-section.top-section > p .more[disabled], .badges-section.top-section > p .more.disabled {
   background-color: transparent !important;
@@ -9629,8 +9632,8 @@ section.post-menu-area {
   width: auto;
 }
 .user-info .avatar {
-  height: 40px;
-  width: 40px;
+  height: 45px;
+  width: 45px;
 }
 .user-info .user-detail {
   -ms-flex: 1 1 auto;
@@ -9663,11 +9666,11 @@ section.post-menu-area {
   color: $primary;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  font-size: 13px;
+  font-size: 15px;
   height: 32px;
   line-height: 1;
   margin: 0;
-  padding: 6.714282px 16px;
+  padding: 5.28571px 16px;
   vertical-align: middle;
 }
 .user-badge:hover,
@@ -9744,7 +9747,7 @@ section.post-menu-area {
   vertical-align: middle;
 }
 #user-card h2 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 1.428572;
@@ -9752,7 +9755,7 @@ section.post-menu-area {
   max-width: none;
 }
 #user-card h3 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 1.428572;
@@ -9760,7 +9763,7 @@ section.post-menu-area {
 #user-card .bio {
   margin-top: 0;
   margin-bottom: 16px;
-  max-height: 120.000048px;
+  max-height: 137.142912px;
   width: 100%;
 }
 #user-card .btn {
@@ -9792,8 +9795,8 @@ section.post-menu-area {
   margin-bottom: 16px;
 }
 #user-card .user-card-avatar img {
-  height: 56.000008px;
-  width: 56.000008px;
+  height: 58.857152px;
+  width: 58.857152px;
 }
 #user-card .usercard-controls {
   margin: -4px -8px 8px 0;
@@ -9834,7 +9837,7 @@ section.about table td:last-of-type {
 }
 section.about table th {
   color: color-chooser(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.6));
-  font-size: 12px;
+  font-size: 16px;
   height: 56px;
   padding: 12px 12px;
   vertical-align: middle;
@@ -10013,7 +10016,7 @@ table.screened-ip-addresses td.action {
   border: 0;
   border-radius: 2px;
   margin-right: 16px;
-  padding: 11px 16px;
+  padding: 10px 16px;
 }
 .admin-controls .nav-pills {
   -ms-flex-wrap: wrap;
@@ -10170,7 +10173,7 @@ table.screened-ip-addresses td.action {
   margin-bottom: 16px;
 }
 .admin-customize .show-current-style .title a {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 1.428572;
@@ -10239,7 +10242,7 @@ table.screened-ip-addresses td.action {
   padding: 16px 0 0;
 }
 .admin-customize .themes-list-container .themes-list-item span.empty {
-  padding: 11px 16px;
+  padding: 10px 16px;
 }
 .admin-customize .themes-list-container .themes-list-item .components-list {
   font-size: 12px;
@@ -10264,7 +10267,7 @@ table.screened-ip-addresses td.action {
       flex-grow: 1;
 }
 .admin-customize .themes-list-container .themes-list-item .inner-wrapper {
-  padding: 11px 16px;
+  padding: 10px 16px;
 }
 .admin-customize .themes-list-header {
   border-bottom-color: color-chooser(rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.12));
@@ -10272,7 +10275,7 @@ table.screened-ip-addresses td.action {
 .admin-customize .themes-list-header .tab {
   border-left: 0;
   border-radius: 2px 2px 0 0;
-  padding: 11px 0;
+  padding: 10px 0;
   position: relative;
 }
 .admin-customize .themes-list-header .tab:hover, .admin-customize .themes-list-header .tab:not(.active):hover {
@@ -10354,8 +10357,8 @@ table.screened-ip-addresses td.action {
   width: 100%;
 }
 .admin-logs-table .btn {
-  font-size: 13px;
-  padding: 9.5px 16px;
+  font-size: 15px;
+  padding: 8.5px 16px;
 }
 
 .admin-main-nav .nav-pills > li {
@@ -10489,10 +10492,10 @@ table.screened-ip-addresses td.action {
 }
 .content-list ul li a {
   border-radius: 2px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1;
   opacity: 0.7;
-  padding: 11px 16px;
+  padding: 10px 16px;
 }
 .content-list ul li a:active, .content-list ul li a:focus, .content-list ul li a:hover {
   opacity: 1;
@@ -10622,7 +10625,7 @@ table.screened-ip-addresses td.action {
   line-height: 0;
 }
 .ip-lookup .location-box .close {
-  margin-top: 3.999996px;
+  margin-top: 2.571424px;
 }
 .ip-lookup .location-box .inline-spinner {
   max-width: 100%;
@@ -10647,8 +10650,8 @@ table.screened-ip-addresses td.action {
   position: static;
 }
 .ip-lookup .location-box .spinner {
-  height: 20.000008px;
-  width: 20.000008px;
+  height: 22.857152px;
+  width: 22.857152px;
 }
 
 .new-webhook {
@@ -10709,14 +10712,14 @@ table.screened-ip-addresses td.action {
   border: 0;
   border-radius: 2px;
   box-shadow: none;
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1;
   margin: 0;
   max-width: 100%;
-  padding: 11px 16px;
+  padding: 10px 16px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -10729,22 +10732,22 @@ table.screened-ip-addresses td.action {
           user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-  font-size: 13px;
-  padding: 9.5px 16px;
+  font-size: 15px;
+  padding: 8.5px 16px;
   text-decoration: none;
 }
 .discourse-no-touch .screened-ip-addresses .actions.col a:hover, .discourse-no-touch .screened-ip-addresses .actions.col a.btn-hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .screened-ip-addresses .actions.col a:focus {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   outline: 0;
 }
 .screened-ip-addresses .actions.col a:active, .discourse-no-touch .screened-ip-addresses .actions.col a:active, .screened-ip-addresses .actions.col a.btn-active, .discourse-no-touch .screened-ip-addresses .actions.col a.btn-active {
   background-color: color-chooser(rgba(204, 204, 204, 0.25), rgba(153, 153, 153, 0.4));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .screened-ip-addresses .actions.col a[disabled], .screened-ip-addresses .actions.col a.disabled {
   background-color: transparent !important;
@@ -10907,11 +10910,11 @@ table.screened-ip-addresses td.action {
 
 .staff-action-logs-controls a.filter {
   border-radius: 16px;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1;
   margin-top: 4px;
   margin-bottom: 4px;
-  padding: 6.714282px 16px;
+  padding: 5.28571px 16px;
 }
 .staff-action-logs-controls a.filter i {
   margin-left: 4px;
@@ -10972,14 +10975,14 @@ table.screened-ip-addresses td.action {
   border: 0;
   border-radius: 2px;
   box-shadow: none;
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1;
   margin: 0;
   max-width: 100%;
-  padding: 11px 16px;
+  padding: 10px 16px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -10992,23 +10995,23 @@ table.screened-ip-addresses td.action {
           user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-  font-size: 13px;
-  padding: 9.5px 16px;
+  font-size: 15px;
+  padding: 8.5px 16px;
   display: block;
   text-align: inherit;
 }
 .discourse-no-touch .styleguide .styleguide-menu ul li a:hover, .discourse-no-touch .styleguide .styleguide-menu ul li a.btn-hover {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .styleguide .styleguide-menu ul li a:focus {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
   outline: 0;
 }
 .styleguide .styleguide-menu ul li a:active, .discourse-no-touch .styleguide .styleguide-menu ul li a:active, .styleguide .styleguide-menu ul li a.btn-active, .discourse-no-touch .styleguide .styleguide-menu ul li a.btn-active {
   background-color: color-chooser(rgba(204, 204, 204, 0.25), rgba(153, 153, 153, 0.4));
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .styleguide .styleguide-menu ul li a[disabled], .styleguide .styleguide-menu ul li a.disabled {
   background-color: transparent !important;
@@ -11158,7 +11161,7 @@ table.screened-ip-addresses td.action {
 .value-list .value .btn {
   border: 0;
   margin-right: 16px;
-  padding: 11px 0;
+  padding: 10px 0;
   width: 36px;
 }
 .value-list .value .btn:last-child {
@@ -11184,10 +11187,10 @@ table.screened-ip-addresses td.action {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
   border-radius: 16px;
   color: inherit;
-  font-size: 85.714286%;
+  font-size: 75%;
   margin-right: 4px;
   margin-bottom: 0;
-  padding: 6.714282px 16px;
+  padding: 5.28571px 16px;
   width: auto;
 }
 
@@ -11237,7 +11240,7 @@ table.screened-ip-addresses td.action {
 }
 
 .watched-words-uploader .instructions {
-  font-size: 85.714286%;
+  font-size: 75%;
 }
 
 .web-hook-container {
@@ -11293,7 +11296,7 @@ table.screened-ip-addresses td.action {
   line-height: 1.5;
 }
 .admin-report .header .breadcrumb .report .info {
-  font-size: 85.714286%;
+  font-size: 75%;
   margin-left: 4px;
 }
 .admin-report .filters {
@@ -11365,7 +11368,7 @@ table.screened-ip-addresses td.action {
   background-color: color-chooser($tertiary, #ffffff);
   background-image: linear-gradient(to bottom, color-chooser(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12)), color-chooser(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12)));
   background-size: calc(100% + 1px) 100%;
-  color: color-chooser($primary, $primary);
+  color: color-chooser($quaternary, $tertiary);
 }
 .admin-report-table .table {
   margin-bottom: 16px;
@@ -11374,9 +11377,9 @@ table.screened-ip-addresses td.action {
   border: 0;
 }
 .admin-report-table .table .admin-report-table-header .sort-btn {
-  font-size: 13px;
+  font-size: 15px;
   margin-right: 4px;
-  padding: 9.5px 8px;
+  padding: 8.5px 8px;
 }
 
 .counters-list {
@@ -11452,10 +11455,10 @@ table.screened-ip-addresses td.action {
   border-bottom: 0 !important;
   border-radius: 2px 2px 0 0;
   color: inherit;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   min-height: 36px;
-  padding: 11px 16px;
+  padding: 10px 16px;
   position: relative;
   transition-duration: 0.3s;
   transition-property: background-color, color, opacity;
@@ -11614,7 +11617,7 @@ table.screened-ip-addresses td.action {
   padding-right: 0;
 }
 .version-check .version-number h4 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 1.428572;
@@ -11646,12 +11649,12 @@ table.screened-ip-addresses td.action {
 }
 .user-metrics .table-cell .label {
   border-radius: 15px 0 0 15px;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.428572;
-  padding: 5.714282px 16px;
+  padding: 4.28571px 16px;
 }
 .user-metrics .table-cell .value {
-  padding: 5.714282px 16px;
+  padding: 4.28571px 16px;
 }
 .user-metrics .table-container {
   margin-bottom: -8px;

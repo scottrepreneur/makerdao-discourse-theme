@@ -140,5 +140,5 @@ tbody {
 }
 
 blockquote {
-  background: $maker-blue-gradient;
+  background: color-chooser($maker-blue, $maker-blue-gradient);
 }

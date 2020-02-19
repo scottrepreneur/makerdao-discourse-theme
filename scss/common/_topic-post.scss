@@ -432,6 +432,8 @@ section {
 }
 
 .signup-cta {
+  background: color-chooser($maker-blue, unquote('$tertiary'));
+
   .buttons {
     align-items: center;
     display: flex;

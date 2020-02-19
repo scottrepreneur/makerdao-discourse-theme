@@ -59,8 +59,8 @@
 @mixin btn-raised {
   background-color: color-chooser($btn-bg-dark, $btn-bg-light);
   // box-shadow: $btn-box-shadow;
-  border: 1px solid unquote('$tertiary');
-  color: unquote('$tertiary');
+  border: 1px solid color-chooser($btn-color-dark, $btn-color-light);
+  color: color-chooser($btn-color-dark, $btn-color-light);
 
   &:hover,
   &.btn-hover {

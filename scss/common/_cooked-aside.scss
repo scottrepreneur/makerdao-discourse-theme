@@ -98,7 +98,7 @@ aside {
     margin-bottom: $card-inner-spacer-y;
 
     blockquote {
-      background: $maker-blue-gradient;
+      background: color-chooser($maker-blue, $maker-blue-gradient);
       width: auto !important;
 
       &:last-child {
@@ -140,7 +140,7 @@ aside {
 
     .title {
       align-items: center;
-      background-color: $blue-gradient-top;
+      background-color: color-chooser($maker-blue, $blue-gradient-top);
       border-left: 0;
       color: color-chooser($white-secondary, $black-secondary);
       display: flex;
@@ -162,7 +162,7 @@ aside {
 
 div {
   &.poll {
-    background-image: $maker-orange-gradient;
+    background: color-chooser(unquote('$tertiary'), $maker-orange-gradient);
     border: 0;
     margin: 0 ($card-padding-x * -1) $card-inner-spacer-y;
     width: calc(100% + #{$card-padding-x * 2});
@@ -257,7 +257,7 @@ div {
 
     .poll-info {
       border-left-color: color-chooser($table-border-color-dark, $table-border-color-light);
-      color: $maker-blue;
+      color: color-chooser($light-4, $maker-blue);
       padding: $card-padding-y $card-padding-x;
 
       p {
