@@ -1317,12 +1317,14 @@ div.poll .poll-info .info-label {
   font-weight: 500;
   letter-spacing: 0;
   line-height: 1.428572;
+  color: color-chooser(#ffffff, #08529b);
 }
 div.poll .poll-info .info-number {
   font-size: 24px;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 1.333333;
+  color: color-chooser(#ffffff, #08529b);
 }
 div.poll .poll-voters {
   display: -ms-flexbox;
@@ -1339,13 +1341,13 @@ div.poll .poll-voters-list {
   margin-top: 4px;
 }
 div.poll .results .bar {
-  background-color: color-chooser($primary, $primary);
+  background-color: color-chooser(#ffffff, $primary);
   border-radius: 0 2px 2px 0;
   height: 4px;
   position: relative;
 }
 div.poll .results .bar-back {
-  background-color: color-chooser($primary, $primary);
+  background-color: color-chooser(#08529b, $primary);
   border-radius: 2px;
   height: 4px;
   position: relative;
@@ -1364,10 +1366,10 @@ div.poll .results .bar-back::before {
 }
 div.poll .results .chosen .bar,
 div.poll .results .chosen .bar-back {
-  background-color: #08529b;
+  background-color: color-chooser(#08529b, #08529b);
 }
 div.poll .results .percentage {
-  color: color-chooser($primary, $primary);
+  color: color-chooser(#ffffff, $primary);
   font-size: inherit;
   margin-left: 16px;
 }
@@ -6615,7 +6617,10 @@ tbody:last-child tr:last-child, thead:last-child tr:last-child {
   padding: 0 6px;
 }
 .topic-list .pinned {
-  background-image: linear-gradient(#d9f2ed, #c9ede6);
+  background: color-chooser(#08529b, linear-gradient(#d9f2ed, #c9ede6));
+}
+.topic-list .pinned .title {
+  color: color-chooser(#ffffff, $primary);
 }
 .topic-list .d-icon.pinned {
   background: none;
@@ -6930,6 +6935,9 @@ tbody:last-child tr:last-child, thead:last-child tr:last-child {
 .latest-topic-list-item .main-link a.title.visited:not(.badge-notification) {
   color: color-chooser($primary, $primary);
   font-weight: normal;
+}
+.latest-topic-list-item .main-link a.title.visited:not(.badge-notification).pinned {
+  background: color-chooser(#ffffff, $primary);
 }
 .latest-topic-list-item .main-link .bottom-row .discourse-tags {
   display: inline-block;
